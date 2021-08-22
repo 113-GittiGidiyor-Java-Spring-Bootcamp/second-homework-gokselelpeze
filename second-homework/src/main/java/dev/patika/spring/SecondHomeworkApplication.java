@@ -10,4 +10,5 @@ public class SecondHomeworkApplication {
         SpringApplication.run(SecondHomeworkApplication.class, args);
     }
 
+
 }

@@ -10,11 +10,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="homework" target="1.8" />
       <module name="second-homework" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="homework" options="-parameters" />
       <module name="second-homework" options="-parameters" />
     </option>
   </component>
